@@ -60,11 +60,9 @@ if (hasNaughtyWord) {
 
 The following settings would be recommended for discussion board moderation which is focused on World War II:
 
-````js
-const naughty = new Naughty({
-
-})
-```![img.png](img.png)
+```js
+const naughty = new Naughty({});
+```
 
 ## API
 
@@ -79,6 +77,7 @@ const naughty = new Naughty({
 Contributions are greatly appreciated.
 
 Contributions ought to be one of the following:
+
 1. Add additional tags to words
 2. Add new words with tags
 3. Add new tags
@@ -92,4 +91,7 @@ Words should never be added that do not have _some_ relevant source indicating t
 [MIT](https://github.com/words/cuss/blob/HEAD/license) &copy; [Matt McElwee](https://github.com/Renddslow)
 
 [^1]: Wikipedia and UrbanDictionary are both permitted relevant sources.
-````
+
+```
+
+```
