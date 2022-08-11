@@ -2,7 +2,7 @@
 
 _Pronounced "Naughty"_
 
-> Naughty detect and replace naughty words in a string.
+> Node script to detect and replace naughty words in a string.
 
 ## Installation
 
@@ -61,7 +61,9 @@ if (hasNaughtyWord) {
 The following settings would be recommended for discussion board moderation which is focused on World War II:
 
 ```js
-const naughty = new Naughty({});
+const naughty = new Naughty({
+  nazi: ['informational'],
+});
 ```
 
 ## API
@@ -91,7 +93,3 @@ Words should never be added that do not have _some_ relevant source indicating t
 [MIT](https://github.com/words/cuss/blob/HEAD/license) &copy; [Matt McElwee](https://github.com/Renddslow)
 
 [^1]: Wikipedia and UrbanDictionary are both permitted relevant sources.
-
-```
-
-```
